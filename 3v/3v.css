@@ -34,3 +34,6 @@ body {
 .x {
   padding: 2vw;
 }
+.gfg {
+  display: flex;
+}
