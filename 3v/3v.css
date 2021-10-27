@@ -41,8 +41,6 @@ body {
 .hjr {
   display: flex;
   flex-wrap: wrap;
-  color: black;
-  margin-left: 5vw;
-  height: 20vh;
-  width: 20vw;
+  flex-direction: column;
+  user-select: none;
 }
