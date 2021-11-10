@@ -43,4 +43,15 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   user-select: none;
+  align-items: center;
+}
+.hjö {
+  display: flex;
+  user-select: none;
+  align-self: center;
+}
+.btext {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: wrap;
 }
