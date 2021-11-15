@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&family=Press+Start+2P&display=swap");
 body {
   background-color: #333142;
 }
@@ -51,10 +53,25 @@ body {
   align-self: center;
 }
 .btext {
+  font-size: 1.17em;
+  font-family: Estonia;
   display: flex;
   flex-wrap: wrap;
   flex-flow: wrap;
   text-align: start;
-  flex-flow: column wrap;
+  flex-flow: nowrap;
   align-content: flex-start;
+}
+.hmp {
+  font-size: 1.17em;
+  font-family: Estonia;
+  display: flex;
+}
+.samman {
+  display: flex;
+  justify-content: start;
+  align-content: flex-start;
+}
+.ggg {
+  font-family: "Press Start 2p";
 }
