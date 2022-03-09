@@ -32,6 +32,31 @@ body {
 .grid2 {
   display: grid;
   display: flex;
+
+  justify-content: center;
+
+  grid-template-columns: 1fr 1fr;
+  display: none;
+  height: 80%;
+  width: 80%;
+  background-color: darkgoldenrod;
+}
+.va {
+  display: grid;
+  display: flex;
+  display: none;
+  justify-content: center;
+
+  grid-template-columns: 1fr 1fr;
+
+  height: 80%;
+  width: 80%;
+  background-color: darkgoldenrod;
+}
+
+.ha {
+  display: grid;
+  display: flex;
   display: none;
   justify-content: center;
 
