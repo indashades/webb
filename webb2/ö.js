@@ -28,7 +28,7 @@ const h5 = document.getElementById("h5");
 if (turn == 1) {
   v.addEventListener("click", function (e) {
     if (turn == 1) {
-      hphjs = hphjs - skadav;
+      hphjs = hphjs - 10;
       uppdateraHP();
       turn = 2;
     }
@@ -40,7 +40,7 @@ if (turn == 1) {
 if (turn == 2) {
   h.addEventListener("click", function (e) {
     if (turn == 2) {
-      hpvjs = hpvjs - skadah;
+      hpvjs = hpvjs - 10;
       uppdateraHP();
       turn = 1;
     }
@@ -77,7 +77,7 @@ if (turn == 2) {
 if (turn == 1) {
   v3.addEventListener("click", function (e) {
     if (turn == 1) {
-      skadah = skadah / 10;
+      hpvjs = hpvjs + 10;
       uppdateraHP();
       turn = 2;
     }
@@ -88,7 +88,7 @@ if (turn == 1) {
 if (turn == 2) {
   h3.addEventListener("click", function (e) {
     if (turn == 2) {
-      skadav = skadav / 10;
+      hphjs = hphjs + 10;
       uppdateraHP();
       turn = 1;
     }
@@ -150,7 +150,7 @@ if (turn == 2) {
 alert("du har 5000.000.000 virus");
 
 console.log(v);
-console.log("ska förändras?");
+console.log("allt är som sig bör");
 
 function uppdateraHP() {
   document.getElementById("hpv").innerHTML = hpvjs;
