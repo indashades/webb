@@ -153,6 +153,14 @@ console.log(v);
 console.log("allt är som sig bör");
 
 function uppdateraHP() {
+  if (hpvjs <= 0) {
+    hpvjs = "dead";
+    turn = 3;
+  }
+  if (hphjs <= 0) {
+    hphjs = "dead";
+    turn = 3;
+  }
   document.getElementById("hpv").innerHTML = hpvjs;
   document.getElementById("hph").innerHTML = hphjs;
 }
