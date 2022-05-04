@@ -14,10 +14,18 @@
 .pgb {
   display: flex;
   padding: 10px;
-  background-color: chartreuse;
+}
+.grön {
+  background-color: darkgreen;
 }
 .pbb {
-  display: flex;
-  padding: 10px;
   background-color: cyan;
+}
+.flex {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.c {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
