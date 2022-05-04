@@ -4,4 +4,20 @@
 }
 .flex {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.bild1 {
+  width: 200%;
+  height: 300%;
+}
+.pgb {
+  display: flex;
+  padding: 10px;
+  background-color: chartreuse;
+}
+.pbb {
+  display: flex;
+  padding: 10px;
+  background-color: cyan;
 }
